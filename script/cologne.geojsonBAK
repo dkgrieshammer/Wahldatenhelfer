@@ -1,0 +1,312 @@
+var cologne = {
+    "area": [
+      {
+        "shape": "poly",
+        "coords": [354,395,362,374,388,362,399,363,395,393,382,399,356,394],
+        "-href": "data.php?id=1",
+        "-onclick": "this.blur();",
+        "stadtteil": "Innenstadt",
+        "nummer": "1",
+        "name": "Altstadt-Nord",
+        "meta": "353,363,'single','http://www.koeln-altstadt.de/test','karte',103)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [356,399,381,403,395,398,405,426,395,434,362,416],
+        "-href": "data.php?id=2",
+        "-onclick": "this.blur();",
+        "stadtteil": "Innenstadt",
+        "nummer": "2",
+        "name": "Altstadt-Süd",
+        "meta": "353,399,'single','http://www.koeln-altstadt.de/','karte',101)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [426,356,433,361,427,366,435,373,450,370,460,373,449,384,456,392,439,422,439,435,430,440,413,406,409,381],
+        "-href": "data.php?id=3",
+        "-onclick": "this.blur();",
+        "stadtteil": "Innenstadt",
+        "nummer": "3",
+        "name": "Deutz",
+        "meta": "410,356,'single','http://www.koeln-deutz.de/','karte',105)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [324,391,352,354,363,354,400,338,414,345,403,358,385,357,366,366,355,374,349,395,326,392],
+        "-href": "data.php?id=5",
+        "-onclick": "this.blur();",
+        "stadtteil": "Innenstadt",
+        "nummer": "5",
+        "name": "Neustadt-Nord",
+        "meta": "321,339,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Neustadt-Nord','karte',104)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [349,399,354,418,383,434,402,439,406,435,413,446,383,447,358,435,343,424,338,411,326,410,324,397],
+        "-href": "data.php?id=4",
+        "-onclick": "this.blur();",
+        "stadtteil": "Innenstadt",
+        "nummer": "4",
+        "name": "Neustadt-Süd",
+        "meta": "322,396,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Neustadt-S%C3%BCd','karte',102)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [400,455,415,451,428,470,417,476,408,480],
+        "-href": "data.php?id=30",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "30",
+        "name": "Bayenthal",
+        "meta": "398,453,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Bayenthal','karte',201)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [418,588,430,588,459,581,470,584,467,593,464,606,458,614,468,618,445,630,436,644,427,637,416,643],
+        "-href": "data.php?id=31",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "31",
+        "name": "Godorf",
+        "meta": "416,582,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Godorf','karte',211)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [419,546,441,551,459,549,473,559,474,573,471,581,457,575,420,585,420,563],
+        "-href": "data.php?id=32",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "32",
+        "name": "Hahnwald",
+        "meta": "418,548,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Hahnwald','karte',207)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [411,588,410,652,389,662,373,635,366,634,366,596,367,586,391,589,391,581],
+        "-href": "data.php?id=33",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "33",
+        "name": "Immendorf",
+        "meta": "365,582,'single','http://www.immendorf2000.de/','karte',212)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [396,484,414,484,431,474,452,497,428,517,416,528,413,512,408,502],
+        "-href": "data.php?id=34",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "34",
+        "name": "Marienburg",
+        "meta": "395,476,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Marienburg','karte',202)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [330,577,363,583,360,603,362,633,354,639,357,652,343,656,327,626,317,625,319,614,311,604,325,584],
+        "-href": "data.php?id=35",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "35",
+        "name": "Meschenich",
+        "meta": "312,574,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Meschenich','karte',213)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [379,451,394,453,400,479,387,479,384,472,384,462],
+        "-href": "data.php?id=36",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "36",
+        "name": "Raderberg",
+        "meta": "374,449,'single','http://www.raderberg.de/','karte',203)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [371,486,390,487,407,511,411,529,384,532,356,528,366,518,370,507,363,503],
+        "-href": "data.php?id=37",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "37",
+        "name": "Raderthal",
+        "meta": "356,486,'single','http://www.gabriel-koeln.de/','karte',204)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [416,534,442,516,454,499,475,511,536,511,534,523,520,543,510,546,515,558,489,567,485,559,475,557,461,544,444,546,423,543],
+        "-href": "data.php?id=38",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "38",
+        "name": "Rodenkirchen",
+        "meta": "413,502,'single','http://www.rodenkirchen.de/','karte',208)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [316,515,357,533,407,535,414,551,415,584,387,575,385,584,348,577,329,572,318,572,300,543,308,529],
+        "-href": "data.php?id=39",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "39",
+        "name": "Rondorf",
+        "meta": "302,517,'single','http://www.rondorfer.de/','karte',206)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [482,563,484,572,517,563,525,570,501,594,473,618,468,610,471,595,476,590,474,586,478,573,475,563],
+        "-href": "data.php?id=40",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "40",
+        "name": "Sürth",
+        "meta": "464,562,'single','http://www.suerth-digital.de/','karte',210)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [516,549,523,549,540,522,538,518,544,510,563,519,575,533,570,549,556,559,532,567,523,562],
+        "-href": "data.php?id=41",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "41",
+        "name": "Weiß",
+        "meta": "513,514,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Wei%C3%9F','karte',209)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [318,509,356,439,362,445,370,447,380,462,380,480,364,480,358,505,366,511,364,514,357,518,353,526],
+        "-href": "data.php?id=42",
+        "-onclick": "this.blur();",
+        "stadtteil": "Rodenkirchen",
+        "nummer": "42",
+        "name": "Zollstock",
+        "meta": "317,438,'single','http://www.buergerverein-zollstock.de/','karte',205)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [253,372,259,385,275,381,289,390,283,401,242,402,239,396,253,395,248,385],
+        "-href": "data.php?id=43",
+        "-onclick": "this.blur();",
+        "stadtteil": "Lindenthal",
+        "nummer": "43",
+        "name": "Braunsfeld",
+        "meta": "237,374,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Braunsfeld','karte',304)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [219,421,218,435,230,463,197,483,170,473,157,449,160,429,172,411,172,388,184,390,188,398,204,397,206,422],
+        "-href": "data.php?id=44",
+        "-onclick": "this.blur();",
+        "stadtteil": "Lindenthal",
+        "nummer": "44",
+        "name": "Junkersdorf",
+        "meta": "154,381,'single','http://www.koeln-junkersdorf.de/','karte',306)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [297,497,311,473,327,456,335,461,312,507],
+        "-href": "data.php?id=45",
+        "-onclick": "this.blur();",
+        "stadtteil": "Lindenthal",
+        "nummer": "45",
+        "name": "Klettenberg",
+        "meta": "293,456,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Klettenberg','karte',301)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [303,382,318,391,323,413,334,413,337,421,319,428,304,438,279,440,270,452,246,465,244,461,237,461,224,438,225,413,242,409,285,405],
+        "-href": "data.php?id=46",
+        "-onclick": "this.blur();",
+        "stadtteil": "Lindenthal",
+        "nummer": "46",
+        "name": "Lindenthal",
+        "meta": "223,382,'single','http://www.koeln-lindenthal.de/','karte',303)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [116,351,125,356,138,347,146,356,159,350,167,353,166,376,99,385,91,371,99,366,106,354],
+        "-href": "data.php?id=47",
+        "-onclick": "this.blur();",
+        "stadtteil": "Lindenthal",
+        "nummer": "47",
+        "name": "Lövenich",
+        "meta": ",85,347,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-L%C3%B6venich','karte',308)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [206,347,216,372,247,368,249,390,231,393,237,402,221,409,219,416,210,416,207,392,190,393,189,384,177,385,178,377,173,377,172,351,177,348,186,351],
+        "-href": "data.php?id=48",
+        "-onclick": "this.blur();",
+        "stadtteil": "Lindenthal",
+        "nummer": "48",
+        "name": "Müngersdorf",
+        "meta": "169,348,'single','http://www.buergerverein-koeln-muengersdorf.de','karte',305)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [250,469,283,445,308,443,340,427,350,435,337,456,328,450,320,451,309,467,303,481,292,494],
+        "-href": "data.php?id=49",
+        "-onclick": "this.blur();",
+        "stadtteil": "Lindenthal",
+        "nummer": "49",
+        "name": "Sülz",
+        "meta": "240,424,'single','http://www.suelz-koeln.de/','karte',302)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [99,389,167,382,166,408,158,425,150,421,111,414,108,394],
+        "-href": "data.php?id=50",
+        "-onclick": "this.blur();",
+        "stadtteil": "Lindenthal",
+        "nummer": "50",
+        "name": "Weiden",
+        "meta": ",80,382,'single','http://www.koeln-weiden.de','karte',307)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [132,295,149,302,166,291,172,314,202,342,189,349,178,343,171,348,161,344,148,351,140,341,127,350,120,344,109,324,128,308],
+        "-href": "data.php?id=51",
+        "-onclick": "this.blur();",
+        "stadtteil": "Lindenthal",
+        "nummer": "51",
+        "name": "Widdersdorf",
+        "meta": "105,291,'single','http://www.koeln-widdersdorf.de/','karte',309)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "shape": "poly",
+        "coords": [247,309,259,319,266,318,272,324,281,329,268,352,256,363,249,360,251,326,237,319],
+        "-href": "data.php?id=52",
+        "-onclick": "this.blur();",
+        "stadtteil": "Ehrenfeld",
+        "nummer": "52",
+        "name": "Bickendorf",
+        "meta": "234,308,'single','http://www.bickendorf.de/','karte',403)",
+        "-alt": "Kölner Stadtteil"
+      }
+  ]
+}

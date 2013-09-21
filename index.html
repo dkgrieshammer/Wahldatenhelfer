@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Paper Cologne Draft</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="script/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="script/paper-full.js"></script>
+        <script type="text/javascript" src="script/cologne.geojson"></script>
+        <script type="text/paperscript" canvas="canvas">
+           
+            console.log(cologne.area.length);
+
+           for (var i = 0; i < cologne.area.length; i++) {
+
+                var coords = [];
+                var tmpArea = cologne.area[i];
+
+                for (var j = 0; j < tmpArea.coords.length; j = j + 2) {
+                    
+
+                    var tmpPoint1 = new Point(tmpArea.coords[j], tmpArea.coords[j+1]);
+                    coords.push(tmpPoint1);
+                };
+                var path = new Path(coords);
+                path.strokeColor = 'black';
+                path.closed = true;
+                path.fillColor = '#e9e9ff';
+
+           };
+
+            </script>
+
+
+            
+    </head>
+
+    <body>
+        <canvas id="canvas" resize></canvas>        
+    </body>
+</html>

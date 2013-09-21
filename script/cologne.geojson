@@ -1,0 +1,692 @@
+var cologne = {
+    "area": [
+      {
+        "-shape": "poly",
+        "coords": [354,395,362,374,388,362,399,363,395,393,382,399,356,394],
+        "-href": "data.php?id=1",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(1,'Innenstadt',1,'Altstadt-Nord',353,363,'single','http://www.koeln-altstadt.de/test','karte',103)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [356,399,381,403,395,398,405,426,395,434,362,416],
+        "-href": "data.php?id=2",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(1,'Innenstadt',2,'Altstadt-Süd',353,399,'single','http://www.koeln-altstadt.de/','karte',101)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [426,356,433,361,427,366,435,373,450,370,460,373,449,384,456,392,439,422,439,435,430,440,413,406,409,381],
+        "-href": "data.php?id=3",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(1,'Innenstadt',3,'Deutz',410,356,'single','http://www.koeln-deutz.de/','karte',105)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [324,391,352,354,363,354,400,338,414,345,403,358,385,357,366,366,355,374,349,395,326,392],
+        "-href": "data.php?id=5",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(1,'Innenstadt',5,'Neustadt-Nord',321,339,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Neustadt-Nord','karte',104)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [349,399,354,418,383,434,402,439,406,435,413,446,383,447,358,435,343,424,338,411,326,410,324,397],
+        "-href": "data.php?id=4",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(1,'Innenstadt',4,'Neustadt-Süd',322,396,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Neustadt-S%C3%BCd','karte',102)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [400,455,415,451,428,470,417,476,408,480],
+        "-href": "data.php?id=30",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',30,'Bayenthal',398,453,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Bayenthal','karte',201)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [418,588,430,588,459,581,470,584,467,593,464,606,458,614,468,618,445,630,436,644,427,637,416,643],
+        "-href": "data.php?id=31",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',31,'Godorf',416,582,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Godorf','karte',211)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [419,546,441,551,459,549,473,559,474,573,471,581,457,575,420,585,420,563],
+        "-href": "data.php?id=32",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',32,'Hahnwald',418,548,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Hahnwald','karte',207)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [411,588,410,652,389,662,373,635,366,634,366,596,367,586,391,589,391,581],
+        "-href": "data.php?id=33",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',33,'Immendorf',365,582,'single','http://www.immendorf2000.de/','karte',212)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [396,484,414,484,431,474,452,497,428,517,416,528,413,512,408,502],
+        "-href": "data.php?id=34",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',34,'Marienburg',395,476,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Marienburg','karte',202)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [330,577,363,583,360,603,362,633,354,639,357,652,343,656,327,626,317,625,319,614,311,604,325,584],
+        "-href": "data.php?id=35",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',35,'Meschenich',312,574,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Meschenich','karte',213)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [379,451,394,453,400,479,387,479,384,472,384,462],
+        "-href": "data.php?id=36",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',36,'Raderberg',374,449,'single','http://www.raderberg.de/','karte',203)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [371,486,390,487,407,511,411,529,384,532,356,528,366,518,370,507,363,503],
+        "-href": "data.php?id=37",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',37,'Raderthal',356,486,'single','http://www.gabriel-koeln.de/','karte',204)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [416,534,442,516,454,499,475,511,536,511,534,523,520,543,510,546,515,558,489,567,485,559,475,557,461,544,444,546,423,543],
+        "-href": "data.php?id=38",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',38,'Rodenkirchen',413,502,'single','http://www.rodenkirchen.de/','karte',208)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [316,515,357,533,407,535,414,551,415,584,387,575,385,584,348,577,329,572,318,572,300,543,308,529],
+        "-href": "data.php?id=39",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',39,'Rondorf',302,517,'single','http://www.rondorfer.de/','karte',206)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [482,563,484,572,517,563,525,570,501,594,473,618,468,610,471,595,476,590,474,586,478,573,475,563],
+        "-href": "data.php?id=40",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',40,'Sürth',464,562,'single','http://www.suerth-digital.de/','karte',210)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [516,549,523,549,540,522,538,518,544,510,563,519,575,533,570,549,556,559,532,567,523,562],
+        "-href": "data.php?id=41",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',41,'Weiß',513,514,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Wei%C3%9F','karte',209)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [318,509,356,439,362,445,370,447,380,462,380,480,364,480,358,505,366,511,364,514,357,518,353,526],
+        "-href": "data.php?id=42",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(2,'Rodenkirchen',42,'Zollstock',317,438,'single','http://www.buergerverein-zollstock.de/','karte',205)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [253,372,259,385,275,381,289,390,283,401,242,402,239,396,253,395,248,385],
+        "-href": "data.php?id=43",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(3,'Lindenthal',43,'Braunsfeld',237,374,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Braunsfeld','karte',304)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [219,421,218,435,230,463,197,483,170,473,157,449,160,429,172,411,172,388,184,390,188,398,204,397,206,422],
+        "-href": "data.php?id=44",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(3,'Lindenthal',44,'Junkersdorf',154,381,'single','http://www.koeln-junkersdorf.de/','karte',306)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [297,497,311,473,327,456,335,461,312,507],
+        "-href": "data.php?id=45",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(3,'Lindenthal',45,'Klettenberg',293,456,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Klettenberg','karte',301)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [303,382,318,391,323,413,334,413,337,421,319,428,304,438,279,440,270,452,246,465,244,461,237,461,224,438,225,413,242,409,285,405],
+        "-href": "data.php?id=46",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(3,'Lindenthal',46,'Lindenthal',223,382,'single','http://www.koeln-lindenthal.de/','karte',303)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [116,351,125,356,138,347,146,356,159,350,167,353,166,376,99,385,91,371,99,366,106,354],
+        "-href": "data.php?id=47",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(3,'Lindenthal',47,'Lövenich',85,347,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-L%C3%B6venich','karte',308)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [206,347,216,372,247,368,249,390,231,393,237,402,221,409,219,416,210,416,207,392,190,393,189,384,177,385,178,377,173,377,172,351,177,348,186,351],
+        "-href": "data.php?id=48",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(3,'Lindenthal',48,'Müngersdorf',169,348,'single','http://www.buergerverein-koeln-muengersdorf.de','karte',305)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [250,469,283,445,308,443,340,427,350,435,337,456,328,450,320,451,309,467,303,481,292,494],
+        "-href": "data.php?id=49",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(3,'Lindenthal',49,'Sülz',240,424,'single','http://www.suelz-koeln.de/','karte',302)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [99,389,167,382,166,408,158,425,150,421,111,414,108,394],
+        "-href": "data.php?id=50",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(3,'Lindenthal',50,'Weiden',80,382,'single','http://www.koeln-weiden.de','karte',307)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [132,295,149,302,166,291,172,314,202,342,189,349,178,343,171,348,161,344,148,351,140,341,127,350,120,344,109,324,128,308],
+        "-href": "data.php?id=51",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(3,'Lindenthal',51,'Widdersdorf',105,291,'single','http://www.koeln-widdersdorf.de/','karte',309)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [247,309,259,319,266,318,272,324,281,329,268,352,256,363,249,360,251,326,237,319],
+        "-href": "data.php?id=52",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(4,'Ehrenfeld',52,'Bickendorf',234,308,'single','http://www.bickendorf.de/','karte',403)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [212,278,200,316,199,329,179,312,168,285,152,296,139,291,148,281,157,266,172,272,195,251,203,261],
+        "-href": "data.php?id=53",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(4,'Ehrenfeld',53,'Bocklemünd/ Mengenich',132,251,'single','http://www.bocklemuend.de/','karte',405)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [284,336,296,340,301,349,332,365,320,384,303,374,293,384,279,376,262,381,256,367,267,364],
+        "-href": "data.php?id=54",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(4,'Ehrenfeld',54,'Ehrenfeld',255,334,'single','http://www.in-ehrenfeld.de/','karte',401)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [306,311,326,338,335,332,350,349,343,352,338,360,310,348,303,345,300,335,293,335,290,332],
+        "-href": "data.php?id=55",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(4,'Ehrenfeld',55,'Neuehrenfeld',290,312,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Neuehrenfeld','karte',402)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [212,264,232,255,237,259,256,249,283,277,301,307,287,327,275,320,271,311,262,312,242,299,215,290,218,274],
+        "-href": "data.php?id=56",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(4,'Ehrenfeld',56,'Ossendorf',210,241,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Ossendorf','karte',406)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [240,305,230,319,231,323,245,328,244,362,222,368,212,344,204,335,205,321,214,296],
+        "-href": "data.php?id=57",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(4,'Ehrenfeld',57,'Vogelsang',204,294,'single','http://www.zwitschersiedlung.de/','karte',404)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [350,308,350,340,334,325,328,332,310,308,307,295,288,273,302,265,339,293],
+        "-href": "data.php?id=58",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(5,'Nippes',58,'Bilderstöckchen',288,264,'single','http://www.koeln-bilderstoeckchen.de/','karte',507)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [256,239,280,223,312,193,340,239,369,250,322,251,285,269],
+        "-href": "data.php?id=59",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(5,'Nippes',59,'Longerich',254,193,'single','http://www.koeln-lunke.de','karte',506)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [347,294,354,295,367,291,370,299,363,300,356,306],
+        "-href": "data.php?id=60",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(5,'Nippes',60,'Mauenheim',341,291,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Mauenheim','karte',502)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [319,190,354,168,360,183,374,183,402,191,387,231,393,251,413,269,448,283,461,302,459,316,451,314,448,306,384,299,386,292,393,290,389,272,396,268,391,262,377,252,369,242,346,236],
+        "-href": "data.php?id=61",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(5,'Nippes',61,'Niehl',316,167,'single','http://www.niehl-online.de/','karte',504)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [378,301,386,305,402,307,405,321,398,328,405,333,394,333,359,349,353,343,356,337,355,314,366,304,374,303],
+        "-href": "data.php?id=62",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(5,'Nippes',62,'Nippes',352,301,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Nippes','karte',501)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [409,309,446,310,450,316,454,321,420,342,410,338,406,326,408,323],
+        "-href": "data.php?id=63",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(5,'Nippes',63,'Riehl',403,309,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Riehl','karte',503)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [309,261,324,255,371,256,384,263,384,271,388,275,388,288,383,288,380,295,375,296,370,286,358,291,346,290,345,288,339,288],
+        "-href": "data.php?id=64",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(5,'Nippes',64,'Weidenpesch',306,255,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Weidenpesch','karte',505)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [185,116,218,117,232,97,254,131,213,150],
+        "-href": "data.php?id=65",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',65,'Blumenberg',182,97,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Blumenberg','karte',610)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [257,137,273,152,280,149,282,159,269,166,258,179,238,148],
+        "-href": "data.php?id=66",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',66,'Chorweiler',238,137,'single','http://www.chorweiler.info/','karte',609)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [147,157,213,205,203,213,207,223,182,238,189,248,168,266,156,257,149,255,140,230,151,221,159,222,162,219,146,202,152,196,139,182,150,167,140,159],
+        "-href": "data.php?id=67",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',67,'Esch/Auweiler',135,157,'single','http://www.esch-aktuell.de/','karte',607)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [239,89,273,105,273,110,262,111,265,117,279,119,304,152,346,164,314,185,286,158,279,145,272,148,237,93],
+        "-href": "data.php?id=68",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',68,'Fühlingen',235,85,'single','http://www.buergerverein-fuehlingen.de/','karte',602)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [261,183,285,207,265,225,255,209],
+        "-href": "data.php?id=69",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',69,'Heimersdorf',254,183,'single','http://www.heimersdorf.de/','karte',604)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [242,202,261,229,250,234,226,209],
+        "-href": "data.php?id=70",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',70,'Lindweiler',223,202,'single','http://www.lindweiler-sind-wir.de/','karte',605)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [251,61,304,91,357,126,404,161,410,175,408,187,376,176,363,180,358,163,337,156,310,150,291,123,277,115,282,101,241,81],
+        "-href": "data.php?id=71",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',71,'Merkenich',241,62,'single','http://www.koeln-merkenich.de/','karte',601)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [215,209,246,237,239,241,247,250,237,253,234,248,207,258,201,246,185,239,212,223,208,216],
+        "-href": "data.php?id=72",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',72,'Pesch',186,211,'single','http://www.bvpesch.de/','karte',606)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [125,80,128,91,158,81,205,152,174,157,147,153,105,126,93,135,82,134,78,124,61,131,42,97,22,81,15,83,9,64,38,55,61,74,73,108,91,110,94,95],
+        "-href": "data.php?id=73",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',73,'Roggendorf/ Thenhoven',7,54,'single','http://www.bvkrt.de/','karte',611)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [283,164,307,189,290,203,267,179],
+        "-href": "data.php?id=74",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',74,'Seeberg',265,163,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Seeberg','karte',603)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [166,162,205,158,233,148,236,160,255,180,248,200,241,195,220,204,190,180],
+        "-href": "data.php?id=75",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',75,'Volkhoven/Weiler',166,149,'single','http://www.bv-volkhoven-weiler.de/','karte',608)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [153,10,161,9,165,27,187,43,222,51,245,59,216,114,180,111,160,76,132,84,131,65,122,44,115,32],
+        "-href": "data.php?id=76",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(6,'Chorweiler',76,'Worringen',114,9,'single','http://worringen-pur.de/','karte',612)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [602,478,619,465,640,462,642,454,670,453,676,437,700,433,714,441,749,437,748,468,742,475,751,485,757,505,756,523,749,529,726,509,685,522,685,526,677,523,666,525,663,513,636,513,636,520,620,520,621,511,613,498,616,491,610,487],
+        "-href": "data.php?id=15",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',15,'Eil',601,434,'single','http://www.porz-am-rhein.de/poeil.html','karte',705)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [623,561,645,555,666,552,668,577,648,579,647,575,629,575],
+        "-href": "data.php?id=16",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',16,'Elsdorf',623,552,'single','http://www.porz-am-rhein.de/poelsdor.html','karte',708)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [532,498,533,491,540,488,540,478,560,490,582,501,573,501,571,505,558,499],
+        "-href": "data.php?id=17",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',17,'Ensen',529,476,'single','http://www.porz-am-rhein.de/poensen.html','karte',703)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [598,500,600,485,607,491,613,493,610,499,614,510,605,511],
+        "-href": "data.php?id=86",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',86,'Finkenberg',599,486,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Finkenberg','karte',716)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [514,452,525,450,534,456,539,446,593,434,603,447,611,449,614,461,603,472,596,476,592,501,585,495,519,455],
+        "-href": "data.php?id=18",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',18,'Gremberghoven',515,434,'single','http://www.porz-am-rhein.de/pogremb.html','karte',704)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [670,529,687,532,690,526,723,516,759,546,771,549,778,557,789,559,798,557,803,564,795,573,763,590,744,602,723,620,710,609,721,596,716,579,711,563,700,561,697,563,691,557,674,559,676,565,670,565],
+        "-href": "data.php?id=19",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',19,'Grengel',668,517,'single','http://www.porz-am-rhein.de/pogreng.html','karte',709)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [516,597,540,619,547,619,547,628,531,627,531,646,523,651,503,646,495,654,462,655,448,649,464,635,496,622],
+        "-href": "data.php?id=20",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',20,'Langel',451,599,'single','http://www.porz-am-rhein.de/polangel.html','karte',715)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [600,621,619,603,625,586,633,604,677,649,611,690,609,656,605,633],
+        "-href": "data.php?id=21",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',21,'Libur',597,586,'single','http://www.porz-am-rhein.de/polibur.html','karte',713)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [703,606,716,621,704,636,682,645,662,625,671,620,680,622,685,612,701,612],
+        "-href": "data.php?id=22",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',22,'Lind',662,605,'single','http://www.porz-am-rhein.de/polind.html','karte',712)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [447,418,469,428,495,428,498,445,504,449,480,462,460,484,431,446,446,436,443,424],
+        "-href": "data.php?id=23",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',23,'Poll',431,416,'single','http://www.porz-am-rhein.de/popoll.html','karte',701)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [574,507,584,503,594,508,596,505,602,514,617,513,617,520,624,523,622,536,619,541,621,547,616,550,622,569,614,564,603,552,596,547,585,549,588,536,585,524,578,516],
+        "-href": "data.php?id=24",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',24,'Porz',577,505,'single','http://www.porz.de','karte',706)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [641,518,660,518,665,526,665,545,639,551,623,556,621,550,625,545,625,527,637,524],
+        "-href": "data.php?id=25",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',25,'Urbach',620,517,'single','http://www.porz-am-rhein.de/pourbach.html','karte',707)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [631,581,643,580,647,583,669,583,675,617,670,616,660,622,639,605],
+        "-href": "data.php?id=26",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',26,'Wahn',629,580,'single','http://www.porz-am-rhein.de/powahn.html','karte',711)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [673,571,679,567,679,562,690,562,696,567,705,565,716,591,713,598,708,604,698,603,698,609,685,607,680,613],
+        "-href": "data.php?id=27",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',27,'Wahnheide',672,560,'single','http://www.porz-am-rhein.de/powahnhe.html','karte',710)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [463,488,485,467,509,454,535,471,535,475,534,482,526,489,527,499,487,500],
+        "-href": "data.php?id=28",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',28,'Westhoven',464,455,'single','http://www.porz-am-rhein.de/powest.html','karte',702)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [585,553,600,554,616,570,622,570,622,583,593,620,554,621,549,609,544,616,537,606,520,593,540,576,577,562],
+        "-href": "data.php?id=29",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(7,'Porz',29,'Zündorf',520,553,'single','http://www.porz-am-rhein.de/pozuend.html','karte',714)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [592,359,597,341,609,333,614,346,621,346,634,341,651,341,662,346,664,356,693,374,684,386,674,386,670,392,651,400,643,400,637,407,626,406,619,392],
+        "-href": "data.php?id=6",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(8,'Kalk',6,'Brück',589,332,'single','http://www.koelnbrueck.de/','karte',807)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [463,397,535,442,531,450,525,445,513,449,502,440,500,425,490,422,473,423,453,413],
+        "-href": "data.php?id=8",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(8,'Kalk',8,'Humboldt/Gremberg',450,397,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Humboldt','karte',801)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [512,363,547,354,556,375,547,377,546,383,535,391,519,390,510,394,510,384,515,376],
+        "-href": "data.php?id=7",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(8,'Kalk',7,'Höhenberg',507,353,'single','http://www.hoevi.info/','karte',804)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [461,385,465,374,463,366,473,367,502,364,509,376,504,381,508,399,504,410,472,395],
+        "-href": "data.php?id=9",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(8,'Kalk',9,'Kalk',453,362,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Kalk','karte',802)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [547,386,553,381,560,380,552,351,587,330,592,333,595,328,595,338,589,345,586,356,588,366,594,378,587,387,584,396,579,396,566,385,551,389],
+        "-href": "data.php?id=10",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(8,'Kalk',10,'Merheim',543,329,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Merheim','karte',806)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [585,403,588,398,594,381,601,380,604,387,611,396,602,400,599,407,594,413],
+        "-href": "data.php?id=11",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(8,'Kalk',11,'Neubrück',584,379,'single','http://www.neubrueck.de/','karte',809)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [527,426,543,395,564,388,584,414,591,417,591,428,543,441],
+        "-href": "data.php?id=12",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(8,'Kalk',12,'Ostheim',524,390,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Ostheim','karte',805)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [613,403,634,414,650,403,697,379,708,379,711,368,732,373,761,366,746,410,752,427,749,431,707,431,672,433,668,447,639,449,637,458,619,459,613,444,606,443,598,432,596,415,602,412,603,404],
+        "-href": "data.php?id=13",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(8,'Kalk',13,'Rath/Heumar',596,364,'single','http://www.porz-am-rhein.de/poheumar.html','karte',808)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [512,399,534,394,536,400,534,406,528,409,529,414,523,424,509,415],
+        "-href": "data.php?id=14",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(8,'Kalk',14,'Vingst',509,394,'single','http://www.hoevi.info/','karte',803)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [475,351,495,348,502,359,479,365,467,359],
+        "-href": "data.php?id=77",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(9,'Mülheim',77,'Buchforst',469,347,'single','http://www.netzwerkbuchheim-buchforst.de/','karte',902)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [526,296,544,351,506,360,499,348,508,333,509,322,517,311,517,301],
+        "-href": "data.php?id=78",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(9,'Mülheim',78,'Buchheim',500,296,'single','http://www.netzwerkbuchheim-buchforst.de/','karte',903)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [575,260,607,245,610,256,644,257,648,264,661,263,656,270,669,273,663,280,666,295,672,297,672,310,643,335,628,338,620,345,613,330,600,330,596,322,609,310,596,307],
+        "-href": "data.php?id=79",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(9,'Mülheim',79,'Dellbrück',575,244,'single','http://buergervereindellbrueck.de/','karte',905)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [499,180,511,184,526,179,542,178,553,171,557,176,603,175,592,188,620,220,606,241,572,256,548,234,532,243,526,228,497,236,503,206],
+        "-href": "data.php?id=80",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(9,'Mülheim',80,'Dünnwald',495,169,'single','http://www.duennwald24.de/','karte',907)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [416,200,450,199,463,192,464,184,489,170,499,206,493,235,477,235,470,231,470,237,450,244,442,241,438,247,418,243,413,236,401,235,399,227],
+        "-href": "data.php?id=81",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(9,'Mülheim',81,'Flittard',402,169,'single','http://www.koeln-flittard.de/','karte',909)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [532,295,574,285,583,292,596,312,598,313,564,339,546,340],
+        "-href": "data.php?id=83",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(9,'Mülheim',83,'Holweide',533,285,'single','http://www.koeln-holweide.de/','karte',904)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [497,241,522,235,532,251,548,240,580,279,530,289,509,274],
+        "-href": "data.php?id=82",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(9,'Mülheim',82,'Höhenhaus',497,233,'single','http://www.hoehenhaus.de/','karte',906)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [497,262,504,275,524,291,512,300,514,311,505,323,496,343,472,346,469,352,455,366,446,364,439,370,435,367,440,361,433,351,462,332,474,310,473,294,470,285,476,278,472,263,481,267],
+        "-href": "data.php?id=84",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(9,'Mülheim',84,'Mülheim',432,259,'single','http://www.muelheimer-freiheit.net/','karte',901)",
+        "-alt": "Kölner Stadtteil"
+      },
+      {
+        "-shape": "poly",
+        "coords": [405,240,417,248,438,248,492,240,497,257,490,255,480,263,468,258,474,278,469,283,455,272,430,262,410,252],
+        "-href": "data.php?id=85",
+        "-onclick": "this.blur();",
+        "-onmouseover": "show_st(9,'Mülheim',85,'Stammheim',403,234,'single','http://de.wikipedia.org/wiki/K%C3%B6ln-Stammheim','karte',908)",
+        "-alt": "Kölner Stadtteil"
+      }
+    ]
+}
